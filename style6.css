@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(64, 61, 61);
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin-top: 10px;
+    padding: 0 40px;
+    border-bottom: 1px solid red ;
+    background-color: rgb(64, 61, 61);
+}
+img{
+    width: 130px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.icons{
+    display: flex;
+   
+}
+li{
+    color: white;
+    list-style: none;
+    margin-right: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.left{
+    width: 50%;
+    margin: 100px 30px 20px 100px;
+    color: white;
+}
+.left h1{
+    font-size: 40px;
+}
+.left p{
+    margin-top: 10px;
+    font-size: 22px;
+}
+.price{
+    margin-top: 10px;
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+button{
+    margin-right: 10px;
+    background-color: red;
+    border:red;
+    color: white;
+    font-weight: 400;
+    padding: 15px;
+    transition: all 0.6s ease;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+.buttons button:hover{
+    background-color: #aa0505;
+    transform: translateY(-6px);
+}
+
+.row{
+    display: flex;
+}
+
+.right{
+    margin-top: 50px;
+    width: 50%;
+    height: 510px ;
+    background-color: red;
+    position: relative;
+}
+.text{
+    color: rgba(102, 95, 95, 0.2);
+    font-size: 60px;
+    font-weight: 900;
+    position: absolute;
+    left: 60px;
+    top: 90px;
+}
+
+.right .big-img{
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    width: 300px;
+    height: 300px;
+    transform: rotate(-25deg);
+    transition: 0.5s ease;
+    z-index: 1;
+}
+.right .big-img:hover{
+    transform: rotate(0);
+}
+.small-img-wrapper{
+    width: 580px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 330px;
+    left: 18px;
+    transition: 0.5s ease-in-out;
+
+}
+.small-img img:hover{
+    transform: rotate(-30deg );
+}
+.small-img {
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+.small-img img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.small-img:nth-child(1){
+    background-color: #E3CAAC;
+}
+
+.small-img:nth-child(2){
+    background-color: #ADADAB;
+}
+
+.small-img:nth-child(3){
+    background-color: #ff6767;
+}
+
+.small-img:nth-child(4){
+    background-color: #496AA9;
+}
+
